@@ -22,8 +22,8 @@ This Python script fetches and analyzes trade data from Databento, creating deta
 
 1. Clone this repository:
 ```bash
-git clone [your-repository-url]
-cd [repository-name]
+git clone https://github.com/eric-md/databento.git
+cd databento
 ```
 
 2. Install required packages:
