@@ -41,11 +41,12 @@ Run the script from the command line:
 python3 trade_chart.py
 ```
 
-By default, the script analyzes PLTR (Palantir Technologies) data for a specific date. To analyze different symbols or dates, modify the following variables in the script:
+By default, the script analyzes PLTR (Palantir Technologies) as an example for a specific date. To analyze different symbols or dates, modify the following variables in the script:
 
 ```python
 symbol = "PLTR"  # Change to your desired symbol
-start_date = "2024-12-23"  # Change to your desired date
+start_date = "2024-12-23" # Change to your desired start date
+end_date = "2024-12-24" # Change to your desired end date
 ```
 
 ## Output
@@ -54,7 +55,7 @@ The script provides:
 - Hourly price summaries
 - Daily statistics
 - Trade data saved to CSV file
-- Interactive price charts
+- Interactive price charts with VWAP, Volume, Hourly/Daily High and Low values
 
 ## Dependencies
 
